@@ -10,7 +10,7 @@ const addFilter = (from) => {
 usedCommandRecently.add(from)
 setTimeout(() => {
 return usedCommandRecently.delete(from)
-}, 5000) // 5 seconds delay, I don't recommend below that.
+}, 3500) // 5 seconds delay, I don't recommend below that.
 }
 
 const addSpam = (sender, _db) => {
